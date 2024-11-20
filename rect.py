@@ -234,10 +234,10 @@ def run(
             if len(det):
                 # Rescale boxes from img_size to im0 size
                 det[:, :4] = scale_boxes(im.shape[2:], det[:, :4], im0.shape).round()
-                token = "7277827174:AAGs9051PJ697APTz1vApQooIIkpf-s-8Tc"
-                reciever_id = -4223737782
+                token = "Your token"
+                reciever_id = 
                 bot = telepot.Bot(token)
-                bot.sendMessage(-4223737782, "Spit Detected")
+                bot.sendMessage(Id, "Spit Detected")
                 
                 
 
